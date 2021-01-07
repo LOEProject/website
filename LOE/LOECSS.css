@@ -69,6 +69,11 @@
   width: 100px;
   height: 20px;
 }
+.DL:hover{
+  color: black;
+  transition: 1s;
+  background-color: white;
+}
 .JEU{
   z-index: 4;
   color: white;
@@ -122,12 +127,12 @@
 /*PARTIE CONTACT*/
 
 .DISCORD{
-  width: 3%;
+  width: 30px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  top: 280%;
+  top: 70%;
   z-index: 100;
 }
 .INFOS{
@@ -135,7 +140,7 @@
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  top: 260%;
+  top: 20%;
   z-index: 100;
   color: white;
   text-align: center;
@@ -147,6 +152,8 @@
   position: absolute;
   top: 250%;
   background-color: black;
+  shape-outside: content-box;
+  background-color: black;
 }
 
 .RES{
@@ -154,7 +161,7 @@
   color: #fff; 
   font-size: 20px;
   position: absolute;
-  top: 270%;
+  top: 40%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -234,7 +241,7 @@ body{
   overflow: hidden;
 }
 .DEV{
-  font-size: 600%;
+  font-size: 100px;
   vertical-align: 40%;
   color: white;
   text-align: center;
