@@ -54,25 +54,12 @@
 .CONTACT:active{
   color: red;
 }
-.DL{
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 20px;
+.DISCORD{
   z-index: 4;
   position: fixed;
   right: 5%;
-  top:  18px;
-  background-color: red;
-  border-radius: 5px;
-  width: 100px;
-  height: 20px;
-}
-.DL:hover{
-  color: black;
+  top: 10px;
   transition: 1s;
-  background-color: white;
 }
 .JEU{
   z-index: 4;
@@ -126,7 +113,7 @@
 
 /*PARTIE CONTACT*/
 
-.DISCORD{
+.TEL{
   width: 30px;
   position: absolute;
   left: 50%;
@@ -140,7 +127,7 @@
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  top: 20%;
+  top: 40%;
   z-index: 100;
   color: white;
   font-size: 18px;
@@ -151,8 +138,8 @@
 .BARREBAS{
   width: 100%;
   height: 300px;
-  position: absolute;
-  top: 2200px;
+  position: relative;
+  top: 500px;
   background-color: black;
   shape-outside: content-box;
   background-color: black;
@@ -173,19 +160,21 @@
 .PRESENTATION{
   color: black;
   font-size: 30px;
-  position: absolute;
+  position: relative;
   top: 100px;
   left: 15%;
+  width: 500px;
   font-family: arial;
   letter-spacing: initial;
+  font-weight: bold;
 }
 .PRESENTATION2{
   line-height: 150%;
   margin-right: 20%;
   color: black;
   font-size: 20px;
-  position: absolute;
-  top: 200px;
+  position: relative;
+  top: 130px;
   left: 15%;
   font-family: bahnschrift;
   width: 400px;
@@ -193,8 +182,8 @@
   font-weight: normal;
 }
 .SCREEN{
-  position: absolute;
-  top: 250px;
+  position: relative;
+  top: -250px;
   left: 50%;
   filter: drop-shadow(5px 5px 5px black);
 }
@@ -204,9 +193,10 @@
   font-weight: bold;
   color: black;
   font-size: 30px;
-  position: absolute;
-  top: 800px;
+  position: relative;
+  top: 0px;
   left: 50%;
+  width: 100px;
   font-family: arial;
   letter-spacing: initial;
 }
@@ -216,8 +206,9 @@
   margin-right: 20%;
   color: black;
   font-size: 20px;
-  position: absolute;
-  top: 880px;
+  position: relative;
+  width: 200px;
+  top: 20px;
   left: 50%;
   font-family: arial;
   letter-spacing: initial;
@@ -331,4 +322,17 @@ input[name="r"]{
 }
 #r5:checked ~ .s1{
   margin-left: -80%;
+}
+
+.PHOQUE{
+  width: 20%;
+  filter: blur(10px);
+}
+.PHOQUE:hover{
+  transition: 0.5s;
+  filter: blur(0px);
+}
+.PHOQUE img{
+  width: 100%;
+  height: 100%;
 }
